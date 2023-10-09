@@ -1,0 +1,48 @@
+/* Jameson Brown */
+body
+{
+background-color: darkseagreen;
+font-size: large;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+h1
+{
+    background-color: rgb(74, 116, 74);
+}
+#secret
+{
+font-size: xx-large; color: goldenrod,; background-color: rgb(74, 116, 74)
+}
+#fName
+{
+    background-color: rgb(255, 244, 193)
+}
+#lName
+{
+    background-color: rgb(255, 244, 193)
+}
+#zCode
+{
+    background-color: rgb(255, 244, 193)
+}
+#zCodeSub
+{
+    background-color: rgb(255, 244, 193)
+}
+#nameResults
+{
+    font-size: xx-large; color: rgb(114, 63, 5);
+}
+#wave
+{
+    max-width: 50px;
+    max-height: 50px;
+}
+footer
+{
+    position: static;
+            bottom: 0;
+            width: 100%;
+}

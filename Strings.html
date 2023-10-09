@@ -1,0 +1,93 @@
+<!--Jameson Brown-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings</title>
+    <script src="stringsscript.js" ></script>
+    <link rel="stylesheet" href="styleSheets/stringStyle.css"/>
+</head>
+<body>
+    <nav>
+        <h1 style="position:absolute;" style="text-align: left;">
+                
+                <a href="Navigator.html">Navigation </a>
+        </h1>
+    </nav>
+    <!--Biggest header size-->
+    <h1>
+        
+        Welcome! <img id="wave" src= "IMAGES/image_processing20200510-10309-1xiahgp.png">
+        
+    </h1>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <form id="str" onsubmit="return false">
+    <br>
+            Palindrome Checker: <br> <br>
+            <!--text entry box-->
+            <input type = "text" id = "initString" 
+            style="background-color: rgb(255, 244, 193);" />
+           <!--submit box--> 
+           <input type = "submit" 
+           style="background-color: rgb(255, 244, 193);" onclick="strings();"/>
+        
+    </form>
+    <br>
+
+    <p>
+        Is this a palindrome?
+    </p>
+      <!-- this will show the results of the palindrome-->  
+    <p    id = "updated String"> 
+    </p>
+    <br>
+    <!--This asks to insert another word-->
+    <p id = "Insert another?">
+    </p>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <form id="name" onsubmit="return false">
+        <br>
+               Insert Your Name
+               <br> <br> <br>
+
+               First name
+                <!--text entry boxes-->
+                <input type = "text" id = "fName" />
+                <br> <br> <br>
+
+                Last Name
+                <input type = "text" id = "lName" />
+               
+               <br> <br> <br>
+
+               Zip code
+                <input type = "text" id = "zCode" />
+                <br> <br> <br>
+
+                <!--Submit button-->
+                <input type = "submit" id="zCodeSub" onclick="formCheck();"/>
+        </form>
+    <br>
+    <!--tells if any errors, or if everything was correct-->
+    <p id = "nameResults" >
+    </p>
+    <br>
+    <!--if everything was filled out correctly, this will show up with text from java script-->
+    <p  id = secret >  
+    </p>
+
+    <br> <br>
+    
+    <footer>
+        Jameson Brown
+        <br>
+        University of Advancing Technology
+        <br>
+        2625 W. Baseline Road
+        <br>
+        Tempe, AZ 85283-1056
+    </footer>
+
+</body>
+</html>

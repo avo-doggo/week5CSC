@@ -1,0 +1,27 @@
+/*Jameson Brown*/
+
+body
+{
+    text-align: center;
+    font-weight: 200;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:darksalmon;
+    
+}
+
+button
+{
+    height: 50px;
+    width: 80px;
+    font-weight: 200;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer
+{
+    position: fixed;
+
+    bottom: 0;
+    width: 100%;
+}

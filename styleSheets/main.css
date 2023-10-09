@@ -1,0 +1,25 @@
+/*jameson Brown*/
+body
+{
+    text-align: center;
+background-color: rgb(243, 234, 192);
+color: rgb(6, 48, 24);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#memeImg
+{
+    max-width: 400px;
+    max-height: 600px;
+}
+#memeImgage
+{
+    max-width: 400px;
+    max-height: 600px;
+}
+footer
+{
+    position: fixed;
+            bottom: 0;
+            width: 100%;
+}
+
